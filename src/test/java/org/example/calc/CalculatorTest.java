@@ -1,7 +1,8 @@
 package org.example.calc;
 
 
-import ie.atu.calc.Calculator;
+
+import org.example.Calculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -13,4 +14,11 @@ public class CalculatorTest {
         myCalc = new Calculator();
         assertEquals(40,myCalc.add(20,20));
     }
+
+    public void multiplyTest(){
+        myCalc = new Calculator();
+        assertEquals(400,myCalc.add(20,20));
+    }
+
+
 }
