@@ -25,4 +25,9 @@ public class CalculatorTest {
         assertEquals(10,myCalc.add(20,10));
     }
 
+    public void divideTest(){
+        myCalc = new Calculator();
+        assertEquals(2,myCalc.add(40,20));
+    }
+
 }
