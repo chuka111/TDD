@@ -20,5 +20,9 @@ public class CalculatorTest {
         assertEquals(400,myCalc.add(20,20));
     }
 
+    public void subtractTest(){
+        myCalc = new Calculator();
+        assertEquals(10,myCalc.add(20,10));
+    }
 
 }
